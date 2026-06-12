@@ -137,7 +137,7 @@
   (func $stdin2buf (result i32)
     ;; result:
     ;;   - 0: on no data
-    ;;   - >0: number of i64
+    ;;   - >0: number of i32
     ;;   - <0: error
 
     (local $ret i32)
